@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.12.2",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3",
+    "@inkline/inkline": "^4.2.1"
+  },
+  "devDependencies": {
+    "@inkline/plugin": "^1.5.2",
+    "@inkline/config": "^1.9.1",
+    "sass": "^1.64.0"
+  }
+}
